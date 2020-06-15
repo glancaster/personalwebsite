@@ -1,18 +1,20 @@
 from flask import Flask,render_template
-import virtualenv
 
 app = Flask(__name__)
 
-@app.route('/Home')
+@app.route('/home')
 def home():
     return render_template('index.html')
-@app.route('/About')
+@app.route('/about')
 def about():
     return render_template('about.html')
-@app.route('/Projects')
+@app.route('/projects')
 def projects():
     return render_template('projects.html')
-@app.route('/Contact')
+@app.route('/projects/code')
+def projectscode ():
+    return render_template('projects/code.html')
+@app.route('/contact')
 def contact():
     return render_template('contact.html')
 if __name__ == '__main__':
