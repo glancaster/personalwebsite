@@ -95,6 +95,7 @@ body {
   font-size: 24px;
   color:#B4D2E7;
   padding: 5%;
+  
 }
 .section {
   background-color:#335C81;
@@ -107,6 +108,12 @@ body {
   background-color: #274060;
   padding: 100px;
 }
+.resume h1{
+  margin: 1rem 0;
+  background-color: #335C81;
+  padding: 1rem;
+  border-radius: 40px;
+}
 .resume h2{
   margin-top: 0em;
   width: fit-content;
@@ -115,6 +122,7 @@ body {
   padding: 1rem;
   border-radius: 40px;
 }
+
 .projectcontent{
   padding: 6rem 0;
 }
@@ -129,6 +137,8 @@ body {
 .groupcontent a{
   text-decoration: none;
   color: #B4D2E7;
+  width: auto;
+  height: auto;
 }
 .group{
   display: flex;
@@ -145,6 +155,10 @@ body {
 }
 
 .groupcontent :hover{
-  background-color: #B4D2E7;
-  color: #335C81;
+  background-color: #3b6b96;
+}
+
+.pcode{
+  background-color: #335C81;
+  padding: 3rem;
 }
