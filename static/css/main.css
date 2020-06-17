@@ -97,6 +97,13 @@ body {
   padding: 5%;
   
 }
+.resumefill {
+  background-color: #3b6b96;
+  padding: 1rem;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+}
 .section {
   background-color:#335C81;
   padding: 1rem;
@@ -113,6 +120,7 @@ body {
   background-color: #335C81;
   padding: 1rem;
   border-radius: 40px;
+  width: fit-content;
 }
 .resume h2{
   margin-top: 0em;
@@ -158,7 +166,13 @@ body {
   background-color: #3b6b96;
 }
 
-.pcode{
+.pcon{
+  background-color: #274060;
+  padding: 3rem 2rem;
+  color: #B4D2E7;
+}
+.fill {
   background-color: #335C81;
-  padding: 3rem;
+  padding: 1rem;
+  border-radius: 50px;
 }

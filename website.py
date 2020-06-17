@@ -18,6 +18,12 @@ def projectscode():
 @app.route('/school')
 def projectsschool():
     return render_template('projectsschool.html')
+@app.route('/research')
+def projectsresearch():
+    return render_template('projectsresearch.html')
+@app.route('/fun')
+def projectsfun():
+    return render_template('projectsfun.html')
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
