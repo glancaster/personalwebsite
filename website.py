@@ -12,9 +12,12 @@ def about():
 @app.route('/projects')
 def projects():
     return render_template('projects.html')
-@app.route('/projectscode')
+@app.route('/code')
 def projectscode():
     return render_template('projectscode.html')
+@app.route('/school')
+def projectsschool():
+    return render_template('projectsschool.html')
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
