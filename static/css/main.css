@@ -39,7 +39,7 @@ body {
     text-align: center;
     font-size: 96px;
     padding-top: 2.5em;
-    padding-bottom: 270px;
+    padding-bottom: 1em;
 }
 
 .wave {
@@ -130,9 +130,28 @@ body {
   padding: 1rem;
   border-radius: 40px;
 }
+.skills{
+  background-color: #274060;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.mesh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  width:fit-content;
+  background-color: #335C81;
+  border-radius: 20px;
+  margin: 1rem;
+}
 
 .projectcontent{
-  padding: 6rem 0;
+  padding: 5rem 5%;
 }
 .groupcontent{
   font-size: 34px;
